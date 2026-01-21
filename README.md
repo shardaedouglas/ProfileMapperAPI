@@ -5,7 +5,7 @@ A RESTful API that matches person identifying information against candidate soci
 ## Prerequisites
 
 - Node.js 18+ 
-- pnpm (or npm/yarn)
+- npm, pnpm, or yarn
 
 ## Installation & Setup
 
@@ -15,26 +15,28 @@ git clone <repo-url>
 cd ProfileMatcherAPI
 
 # Install dependencies
-pnpm install
+npm install       # or: pnpm install / yarn
 
 # Build TypeScript
-pnpm run build
+npm run build
 ```
 
 ## Running the Server
 
 ```bash
 # Production
-pnpm start              # Runs on http://localhost:3000
+npm start              # Runs on http://localhost:3000
 
 # Development (with auto-reload)
-pnpm run dev
+npm run dev
 ```
 
 ## Running Tests
 
+## Running Tests
+
 ```bash
-pnpm test               # Run all 125 tests
+npm test               # Run all 125 tests
 ```
 
 ## Example Usage
