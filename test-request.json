@@ -1,0 +1,24 @@
+{
+  "person": {
+    "name": "Jane Doe",
+    "email": "jane.doe@example.com",
+    "location": "San Francisco, CA",
+    "employer": "Acme Corp"
+  },
+  "profiles": [
+    {
+      "platform": "linkedin",
+      "username": "janedoe",
+      "displayName": "Jane Doe",
+      "bio": "Software Engineer at Acme Corp",
+      "location": "San Francisco Bay Area"
+    },
+    {
+      "platform": "twitter",
+      "username": "jdoe1985",
+      "displayName": "J. Doe",
+      "bio": "Coffee enthusiast",
+      "location": "NYC"
+    }
+  ]
+}
